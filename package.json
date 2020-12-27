@@ -1,0 +1,29 @@
+{
+  "name": "base-bot-discord",
+  "version": "1.0.0",
+  "description": "bot criado para ajudar pessoas a iniciarem seus bots para js",
+  "main": "Bot.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbugs130/basebot-discord-com-handler.git"
+  },
+  "author": "VBugs#0158",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbugs130/basebot-discord-com-handler/issues"
+  },
+  "homepage": "https://github.com/vbugs130/basebot-discord-com-handler#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.16",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "express": "^4.17.1",
+    "quick.db": "^7.1.1"
+  }
+}
